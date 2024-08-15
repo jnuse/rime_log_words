@@ -9,7 +9,8 @@ Windows端基于lua的记词器
 engine:
   processors:
     - lua_processor@log_words  # 记词
-``` <br>
+```
+<br>
 4.托盘图标右键重新部署
 
 然后输入文字就会记录在小狼毫程序目录下，具体可log_words.lua看着改。 <br>
