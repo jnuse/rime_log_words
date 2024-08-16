@@ -1,6 +1,6 @@
 import datetime
 
-inpath = r"D:\rime\weasel-0.16.1\input_log_words.txt"
+inpath = r"D:\rime\user\lua\input_log_word.txt"
 outpath = r"D:\rime\user\cn_dicts\diy.dict.yaml"
 words = []
 sat = {}
