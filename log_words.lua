@@ -12,8 +12,8 @@ function on_commit(context)
     -- 获取提交的文本内容
     local commit_text = context:get_commit_text()
 
-    -- 指定保存文件的绝对路径
-    local file_path = "./input_log_words.txt"
+    -- 指定保存文件的绝对路径，相对路径会报错
+    local file_path = "D:\\rime\\weasel-0.16.1\\input_log_word.txt"
 
     -- 以追加模式打开文件
     local file = io.open(file_path, "a")
