@@ -9,7 +9,7 @@ function on_commit(context)
     local commit_text = context:get_commit_text()
 
     -- 指定保存文件的绝对路径，不能使用相对路径，否则会报错
-    local file_path = "D:\\rime\\weasel-0.16.1\\input_log_word.txt"
+    local file_path = "D:\\rime\\user\\lua\\input_log_word.txt"
 
     local file, err  = io.open(file_path, "a")
     if file then
